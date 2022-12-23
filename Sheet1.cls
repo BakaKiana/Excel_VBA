@@ -1,13 +1,3 @@
-VERSION 1.0 CLASS
-BEGIN
-  MultiUse = -1  'True
-END
-Attribute VB_Name = "Sheet1"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = True
-
 Sub Worksheet_Change(ByVal Target As Range)
 Dim wb1 As Workbook, wb2 As Workbook
 Dim ws1 As Worksheet, ws2 As Worksheet
